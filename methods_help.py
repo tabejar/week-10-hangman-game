@@ -52,6 +52,7 @@ def method_help():
   
   phone_brands = {"Samsung", "Xiaomi", "Apple", "Huawei", "LG"}
   tv_brands = {"Sony", "Philips", "Samsung", "LG"}
-  print("phone brand has name in common: " + str(phone_brands.isdisjoint(tv_brands)))
+  isolated_sets = phone_brands.isdisjoint(tv_brands)
+  print("phone brand has name in common: " + str(isolated_sets))
 
   # Search the documentation for the requested method to know how it works.
