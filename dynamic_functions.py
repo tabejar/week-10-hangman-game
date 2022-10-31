@@ -1,5 +1,12 @@
-def check_3Digits(number):
-  return number in range(100, 1000)
+def check_3Digits(list1):
+  # return number in range(100, 1000)
+  for n in list1:
+    if n in range(100,1000):
+      return True
+    else:
+      pass
+  
+  
   # pass
   
 ########################################################################################################################

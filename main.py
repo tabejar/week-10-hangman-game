@@ -19,5 +19,6 @@ from dynamic_functions import check_3Digits
 # returnS()
 # answer = power(5,2)
 # print(answer)
-result = check_3Digits(658)
+# sum = 526 + 345
+result = check_3Digits([55, 99, 6000])
 print(result)
