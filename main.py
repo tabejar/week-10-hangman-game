@@ -1,7 +1,7 @@
 # from methods_help import method_help
 # from functions import welcome, add_numbers, num_dividedFrom_add_numbers, greet, welcome2
-from returnStuff import power
-
+# from returnStuff import power
+from dynamic_functions import check_3Digits
 # method_help()
 
 # function()
@@ -17,5 +17,7 @@ from returnStuff import power
 # square = num*num
 
 # returnS()
-answer = power(5,2)
-print(answer)
+# answer = power(5,2)
+# print(answer)
+result = check_3Digits(658)
+print(result)
