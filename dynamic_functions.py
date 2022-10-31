@@ -1,10 +1,15 @@
 def check_3Digits(list1):
   # return number in range(100, 1000)
+  three_digit_list = []
+  
   for n in list1:
     if n in range(100,1000):
-      return True
+      three_digit_list.append(n)
+      # return True
     else:
       pass
+
+  return three_digit_list
   
   
   # pass
