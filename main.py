@@ -1,7 +1,7 @@
 # from methods_help import method_help
 # from functions import welcome, add_numbers, num_dividedFrom_add_numbers, greet, welcome2
 # from returnStuff import power
-from dynamic_functions import check_3Digits
+from dynamic_functions import check_3Digits, all_positives
 # method_help()
 
 # function()
@@ -21,4 +21,6 @@ from dynamic_functions import check_3Digits
 # print(answer)
 # sum = 526 + 345
 result = check_3Digits([55, 99, 600, 300, 160])
+print(result)
+result = all_positives([89, 5, -7])
 print(result)
