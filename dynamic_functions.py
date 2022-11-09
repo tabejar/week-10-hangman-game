@@ -21,7 +21,7 @@ def all_positives(numbers):
   for n in numbers:
     if n >= 0:
       return True
-    elif n <= -1:
+    elif numbers <= 0:
       return False
 
   
@@ -31,6 +31,7 @@ def all_positives(numbers):
 ########################################################################################################################
 # Dynamic Functions Practice #2
 # Create a function (sum_less) that adds the numbers of a list (stored in the variable numbers) as long as they are greater than 0 and less than 1000, and returns the result of said sum.
+def sum_less():
 
 
 

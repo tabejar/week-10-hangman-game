@@ -1,7 +1,8 @@
 # from methods_help import method_help
 # from functions import welcome, add_numbers, num_dividedFrom_add_numbers, greet, welcome2
 # from returnStuff import power
-from dynamic_functions import check_3Digits, all_positives
+# from dynamic_functions import check_3Digits, all_positives
+from function_interactions import mix_sticks
 # method_help()
 
 # function()
@@ -20,7 +21,11 @@ from dynamic_functions import check_3Digits, all_positives
 # answer = power(5,2)
 # print(answer)
 # sum = 526 + 345
-result = check_3Digits([55, 99, 600, 300, 160])
-print(result)
-result = all_positives([89, 5, -7])
-print(result)
+# result = check_3Digits([55, 99, 600, 300, 160])
+# print(result)
+# result = all_positives([89, -5, 7])
+# print(result)
+sticks = ["-","--","---","----","-----"]
+
+my_mix = mix_sticks(sticks)
+print(my_mix)
