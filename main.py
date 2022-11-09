@@ -2,7 +2,7 @@
 # from functions import welcome, add_numbers, num_dividedFrom_add_numbers, greet, welcome2
 # from returnStuff import power
 # from dynamic_functions import check_3Digits, all_positives
-from function_interactions import mix_sticks
+from function_interactions import mix_sticks, try_your_luck, verify_number
 # method_help()
 
 # function()
@@ -29,3 +29,6 @@ sticks = ["-","--","---","----","-----"]
 
 my_mix = mix_sticks(sticks)
 print(my_mix)
+try1 = try_your_luck()
+print(try1)
+print(verify_number(my_mix, try1))
